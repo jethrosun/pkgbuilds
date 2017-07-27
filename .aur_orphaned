@@ -1,10 +1,11 @@
 cppcheck
 eclim-git 
 libseccomp
-ns3
 openstack-guest-agents-unix
 python2-oslo-messaging
 python*
 darwin
 xmobar
 
+ns3
+pygccxml
