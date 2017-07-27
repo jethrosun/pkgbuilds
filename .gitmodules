@@ -1,3 +1,6 @@
 [submodule "pycharm-community"]
 	path = pycharm-community
 	url = ssh://aur@aur.archlinux.org/pycharm-community.git
+[submodule "ns3"]
+	path = ns3
+	url = ssh://aur@aur.archlinux.org/ns3.git
