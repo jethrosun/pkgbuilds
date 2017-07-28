@@ -1,0 +1,45 @@
+ > Python - OK
+ > GNU C++ compiler - OK
+ > Mercurial - OK
+ > CVS - is missing
+ > GIT - OK
+ > Bazaar - is missing
+ > Tar tool - OK
+ > Unzip tool - is missing
+ > Unrar tool - OK
+ > 7z  data compression utility - is missing
+ > XZ data compression utility - OK
+ > Make - OK
+ > cMake - OK
+ > patch tool - OK
+ > autoreconf tool - OK
+
+
+ pacman -S cvs unzip bzr p7zip linux-headers
+
+
+  >> Downloading ns-3.26 - (Nothing to do, source directory already exists) - OK
+ >> Building gccxml-ns3 - Problem
+ > Problem: Optional dependency, module "gccxml-ns3" failed
+   This may reduce the  functionality of the final build.
+   However, bake will continue since "gccxml-ns3" is not an essential dependency.
+   For more information call bake with -v or -vvv, for full verbose mode.
+
+ >> Building pygccxml - Problem
+ > Problem: Optional dependency, module "pygccxml" failed
+   This may reduce the  functionality of the final build.
+   However, bake will continue since "pygccxml" is not an essential dependency.
+   For more information call bake with -v or -vvv, for full verbose mode.
+
+ >> Building netanim-3.107 - Problem
+ > Problem: Optional dependency, module "netanim-3.107" failed
+   This may reduce the  functionality of the final build.
+   However, bake will continue since "netanim-3.107" is not an essential dependency.
+   For more information call bake with -v or -vvv, for full verbose mode.
+
+ >> Building pybindgen-0.17.0.post57+nga6376f2 - Problem
+ > Problem: Optional dependency, module "pybindgen-0.17.0.post57+nga6376f2" failed
+   This may reduce the  functionality of the final build.
+   However, bake will continue since "pybindgen-0.17.0.post57+nga6376f2" is not an essential dependency.
+   For more information call bake with -v or -vvv, for full verbose mode.
+
