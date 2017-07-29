@@ -9,37 +9,27 @@ arch=( 'i686' 'x86_64' 'armv6' 'armv6h' 'arm7h' )
 url='http://www.nsnam.org/'
 license=('GPL')
 depends=(
-#g++ python2 python-devel qt4-devel mercurial 
-# cmake cvs unzip bzr p7zip linux-headers doxygen  graphviz
-# sqlite
-# libxml2 libxml2-devel
-# boost
-# git
-# gdb valgrind
-    'gsl' # GNU Scientific Library
-    'gtk2'
-    'libxml2' 'sqlite' 'boost' 'boost-libs'
-    'doxygen'
-    'graphviz' 'imagemagick' 'dia' 'qt4'
-    'python2' 'python2-setuptools' 'python2-pydot' 'goocanvas' 'pygoocanvas' 'pygccxml' 'pygtk' 'python2-pygraphviz'
-    'pygccxml-svn'
-    'tcpdump' 'wireshark-gtk'
-    'gdb' 'valgrind'
-    'mercurial'
-    'bzr'
-    'texlive-bin'
+    'gcc' 'python2' 'python2-setuptools' 'qt4' 'mercurial'
+    'cmake' 'cvs' 'unzip' 'bzr' 'p7zip' 'linux-headers' # FIXME
+    'doxygen' 'graphviz' 'python2-pygraphviz'
+    'sqlite'
+    'libxml2' 'gtk2' 'pygtk'
+    'boost' 'boost-libs' 'git' 'gdb' 'valgrind'
     'python2-sphinx'
-'uncrustify' # utils/check-style.py style check program
-
-'openmpi' # MPI for HPC
-'flex' # for nsc
-)
+# extra stuff
+    'imagemagick' 'dia'  
+    'goocanvas' 'pygoocanvas' 'pygccxml'
+    'texlive-bin'
+    'uncrustify' # utils/check-style.py style check program
+    'openmpi' # MPI for HPC
+    'flex' # for nsc
+    )
 makedepends=(
     'fakeroot'
     'findutils'
     )
 optdepends=(
-# gsl
+    'gsl' 'tcpdump' 'wireshark-gtk'
     )
   source=(
       "https://www.nsnam.org/release/ns-allinone-${pkgver}.tar.bz2"
