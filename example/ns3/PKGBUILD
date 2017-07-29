@@ -18,7 +18,7 @@ depends=(
     'python2-sphinx'
 # extra stuff
     'imagemagick' 'dia'  
-    'goocanvas' 'pygoocanvas' 'pygccxml'
+    'goocanvas' 'pygccxml' 'pygoocanvas' # FIXME
     'texlive-bin'
     'uncrustify' # utils/check-style.py style check program
     'openmpi' # MPI for HPC
