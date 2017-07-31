@@ -4,3 +4,6 @@
 [submodule "ns3"]
 	path = ns3
 	url = ssh://aur@aur.archlinux.org/ns3.git
+[submodule "eclim-git"]
+	path = eclim-git
+	url = ssh://aur@aur.archlinux.org/eclim-git.git
