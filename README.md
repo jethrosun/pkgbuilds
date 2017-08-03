@@ -11,8 +11,3 @@ o_(")(")
 ```
 Nothing to see here
 
-
-## To figure out AUR orphan package
-```sh
-aur-orphans.py | sort > $(date +%F).txt
-```
