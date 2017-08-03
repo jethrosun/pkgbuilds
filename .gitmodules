@@ -7,3 +7,6 @@
 [submodule "eclim-git"]
 	path = eclim-git
 	url = ssh://aur@aur.archlinux.org/eclim-git.git
+[submodule "vim-c"]
+	path = vim-c
+	url = ssh://aur@aur.archlinux.org/vim-c.git
