@@ -13,3 +13,6 @@
 [submodule "pygoocanvas"]
 	path = pygoocanvas
 	url = ssh://aur@aur.archlinux.org/pygoocanvas.git
+[submodule "rainbowstream"]
+	path = rainbowstream
+	url = ssh://aur@aur.archlinux.org/rainbowstream.git
