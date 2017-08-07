@@ -10,3 +10,6 @@
 [submodule "vim-c"]
 	path = vim-c
 	url = ssh://aur@aur.archlinux.org/vim-c.git
+[submodule "pygoocanvas"]
+	path = pygoocanvas
+	url = ssh://aur@aur.archlinux.org/pygoocanvas.git
